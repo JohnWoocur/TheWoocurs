@@ -1,0 +1,286 @@
+#body{
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	width:100%;
+	height:auto;
+	background-color:lightblue;
+}
+/* Divisions main design*/
+.home{
+	height:550px;
+	position:relative;
+	top:52.5px;
+	background-image:url(../img/bannerH.jpg);
+	background-size:100% 100%;
+	text-align:center;
+	width:98%;
+	border-radius:0px;
+	left:1%;
+	right:1%;
+	padding-left:15%;
+	padding-right:15%;
+	padding-bottom:15%;
+	padding-top:7%;
+}
+.home input[type=button]{
+	background-color: #FF0033;
+	border:none;
+	Color:white;
+	padding:12px 24px;
+	text-align:center;
+	text-decoration:none;
+	font-size:16px;
+	margin:4px 2px;
+	cursor:pointer;
+	font-family:Times New Roman;
+}
+.home input[type=button]:hover{
+	background-color:#FF0066;
+}
+.categories{
+	height:600px;
+	position:relative;
+	top:60px;
+	background-image:url(../img/banner.jpg);
+	width:98%;
+	border-radius:0px;
+	left:1%;
+	right:1%;
+}
+.services{
+	height:600px;
+	position:relative;
+	top:70px;
+	background-image:url(../img/banner.jpg);
+	width:98%;
+	border-radius:0px;
+	left:1%;
+	right:1%;
+}
+.about{
+	height:600px;
+	position:relative;
+	top:60px;
+	background-image:url(../img/banner.jpg);
+	z-index:1;
+	width:98%;
+	border-radius:0px;
+	left:1%;
+	right:1%;
+	color:black;
+	font-size:11pt;
+	text-align:center;
+	padding-left:3%;
+	padding-right:3%;
+	
+}
+.about h3,h4,h5{
+	font-weight:bolder;
+}
+.contact{
+	height:480px;
+	position:relative;
+	top:70px;
+	background-image:url(../img/banner.jpg);
+	width:98%;
+	border-radius:0px;
+	left:1%;
+	right:1%;
+	color:black;
+	text-align:center;
+}
+.footer{
+	height:120px;
+	position:relative;
+	top:60px;
+	text-align:center;
+	color:black;
+	background-image:url(../img/banner.jpg);
+	width:98%;
+	border-radius:0px;
+	left:1%;
+	right:1%;
+}
+.spaces{
+	height:50px;
+}
+/* division design end*/
+
+/* footer elements design*/
+.footer a{
+	color:black;
+}
+.footer img{
+	height:25px;
+	width:25px;
+}
+/* footer elements design end*/
+
+/*nav bar ulist list design*/
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
+	position:fixed;
+	z-index:7;
+	top:0;
+	width:100%;
+}
+li{
+	float:left;
+	font-weight:bold;
+}
+li.navspace{
+	float:right;
+}
+li a:hover{
+	background-color:#111;
+}
+li a:active{
+	background-color:#4CAF50;
+}
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+/*navbar design end*/
+/*categories*/
+
+div.img img {
+	border-radius:50%;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+	color:black;
+	font-size:15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+	height: 42%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+/* categories end*/
+/*service section design start*/
+.ser{
+    padding: 0 5px;
+    float: left;
+    width: 49.99999%;
+	height: auto;
+}
+.ser_ico{
+	padding: 0;
+    text-align: center;
+	color:black;
+}
+.heading{
+    text-align: center;
+	color:black;
+	font-size:15px;
+}
+.brief {
+    text-align: center;
+	color:black;
+	font-size:15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px){
+    .ser {
+        width: 99.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .ser {
+        width: 100%;
+    }
+}
+/*service section design end*/
+/*contact form design*/
+.contact input[type=text]{
+	width:20%;
+	padding:10px 30px;
+	margin:5px 0;
+	border:1px solid #ccc;
+	border-radius:0px;
+	cursor:pointer;
+	background-image:url(../icons/k3.ico);
+	background-position:1px 1px;
+	background-repeat:no-repeat;
+}
+.contact input[type=text]:focus{
+	border:1px solid #FF0030;
+}
+.contact input[type=email]{
+	width:20%;
+	padding:10px 30px;
+	margin:5px 0;
+	border:1px solid #ccc;
+	border-radius:0px;
+	cursor:pointer;
+	background-image:url(../icons/k3.ico);
+	background-position:1px 1px;
+	background-repeat:no-repeat;
+}
+.contact input[type=text]:focus{
+	border:1px solid #FF0030;
+}
+.contact textarea{
+	width:20%;
+	padding:10px 30px;
+	margin:5px 0;
+	border:1px solid #ccc;
+	border-radius:0px;
+	cursor:pointer;
+	background-image:url(../icons/k3.ico);
+	background-position:1px 1px;
+	background-repeat:no-repeat;
+}
+.contact textarea:focus{
+	border:1px solid #FF0030;
+}
+.contact input[type=submit]{
+	width:10%;
+    background-color: #lightblue;
+    color: black;
+    padding: 7px 10px;
+    margin: 0 0;
+    border-radius: 0px;
+    cursor: pointer;}
+.contact input[type=submit]:hover{
+	background-color:#ccc;
+}
+/*contact form design end*/

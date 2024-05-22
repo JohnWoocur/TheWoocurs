@@ -1,0 +1,132 @@
+#body{
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	width:100%;
+	height:auto;
+}
+/* Divisions main design*/
+.home{
+	width:98%;
+	height:auto;
+	position:relative;
+	top:52.5px;
+	text-align:center;
+	left:1%;
+	right:1%;
+}
+.footer{
+	height:120px;
+	position:relative;
+	top:60px;
+	text-align:center;
+	color:black;
+	width:98%;
+	border-radius:0px;
+	left:1%;
+	right:1%;
+}
+
+/* division design end*/
+
+/* footer elements design*/
+.footer a{
+	color:black;
+}
+.footer img{
+	height:25px;
+	width:25px;
+}
+/* footer elements design end*/
+
+/*nav bar ulist list design*/
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
+	position:fixed;
+	z-index:7;
+	top:0;
+	width:100%;
+}
+li{
+	float:left;
+	font-weight:bold;
+}
+li.navspace{
+	float:right;
+}
+li a:hover{
+	background-color:#111;
+}
+li a:active{
+	background-color:#4CAF50;
+}
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+/*navbar design end*/
+.box
+{
+	width:100%;
+	height:auto;
+	color: black;
+	position: relative;
+	box-sizing:border-box;
+	font-family:cambria;
+	padding-bottom:7%;
+	top:50px;
+}
+.box p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.box a
+{
+	text-decoration: none;
+	font-size: 16px;
+	color:black;
+}
+.box a:hover
+{
+	color: #00FFFF;
+}
+.details{
+	width:15%;
+	height:50px;
+	position:relative;
+	text-align:left;
+	float:left;
+	left:5%;
+	
+	
+}
+.progressbar{
+	height:5px;
+}
+button
+{
+	border:none;
+	outline: none;
+	height: 36px;
+	background: #dc143c;
+	color: #fff;
+	font-size:18px; 
+	border-radius: 0px;
+	text-align:center;
+	
+}
+button:hover
+{
+	cursor: pointer;
+	border-radius: 20px;
+}
